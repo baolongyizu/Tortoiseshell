@@ -1,0 +1,154 @@
+
+/* Universal Styles */
+html{
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: white;
+}
+
+
+.container{
+  margin: auto;
+  max-width: 960px;
+}
+.flex{
+  display: flex;
+}
+
+body{
+  line-height: 1.4rem;
+}
+
+div{
+  display: block;
+}
+
+p{
+  display: block;
+
+}
+
+/* header */
+nav{
+  padding: 1rem 0;
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header{
+  background: url(file:///Users/weiwu/Documents/Project/Tortoiseshell/resources/img/glasses-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 1rem;
+  height: 30rem;
+
+}
+
+.truncated-menu{
+  display: none;
+}
+
+header .flex{
+  justify-content: flex-end;
+}
+
+.main-banner{
+  background-color: white;
+  padding: 0.75rem 5rem;
+  display: inline-block;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  line-height: 2.4rem;
+}
+
+h1{
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.67em 0;
+}
+
+nav div{
+  display: flex;
+  align-items: center;
+}
+
+ul{
+  margin-right: 1rem;
+}
+
+ul, menu, dir{
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end:0px;
+  -webkit-padding-start:40px;
+}
+
+ul li{
+  display: inline;
+  padding: 0 1rem;
+}
+
+li{
+  text-align: -webkit-match-parent;
+}
+
+/* Supporting Sections */
+.supporting{
+  display: flex;
+  justify-content: center;
+}
+
+.service{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+  width: 5rem;
+  height: 8rem;
+}
+
+.service img{
+  width: 5rem;
+  marigin-bottom: 1rem;
+}
+
+img{
+  border-style: none;
+}
+/* Service Section */
+
+.title{
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  font-weight: bold;
+  color: white;
+  max-width: 10rem;
+}
+
+/* Info Section*/
+.info{
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+footer{
+  background-color: azure;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+}
+footer img{
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right:1rem;
+}
